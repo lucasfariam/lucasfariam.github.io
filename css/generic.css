@@ -46,6 +46,7 @@ header .container .logo img {
 header .contact-me a {
   display: flex;
   align-items: center;
+  margin-right: 8px;
 }
 
 header .contact-me a img {
@@ -65,7 +66,6 @@ header .contact-me strong {
   align-items: center;
   justify-content: center;
 }
-
 a {
   margin: 0;
   padding: 0;
@@ -74,19 +74,20 @@ a {
   font-weight: 400;
   text-decoration: none;
 }
-
 #banner {
   height: 568px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+#apresentação {
+  text-align: center;
+  margin: 0px 5px 5px 5px;
+}
 h1 {
   color: var(--color-primary);
   margin-bottom: 0.6rem;
 }
-
 h1 img {
   width: 1.5em;
   margin-top: 0;
