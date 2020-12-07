@@ -83,11 +83,12 @@ a {
 
 h1 {
   color: var(--color-primary);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
 }
 
 h1 img {
   width: 2em;
+  margin-top: 0;
 }
 
 .banner--content,
