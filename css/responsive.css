@@ -60,11 +60,13 @@
   }
 
   #banner .skills {
-    width: 250px;
+    width: 360px;
     text-align: center;
-  }
+  } 
   #banner .skills img {
-    margin: 0.5rem;
+    margin: 0.6rem;
+    width: 55px;
+    height: 55px;
   }
   footer {
     font-size: 0.9rem;
