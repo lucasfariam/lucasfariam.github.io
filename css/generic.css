@@ -12,6 +12,7 @@
 }
 
 body {
+  height: auto;
   background-color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +33,7 @@ header .container {
 }
 
 .container {
-  width: 1150px;
+  width: 1130px;
   display: flex;
   justify-content: space-between;
 }
