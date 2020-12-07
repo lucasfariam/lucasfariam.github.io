@@ -1,0 +1,188 @@
+:root {
+  --color-primary: #004a7c;
+  --color-secundary: #005691;
+  --text: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom, #ffffff 0%, #D3EFFE 100%);
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .logo img {
+  width: 15%;
+  border-radius: 60px;
+}
+
+header .contact-me a {
+  display: flex;
+  align-items: center;
+}
+
+header .contact-me a img {
+  width: 30px;
+  border-radius: 60px;
+}
+
+header .contact-me strong {
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-left: 10px;
+}
+
+.logo,
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#banner {
+  height: 568px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--color-primary);
+  margin-bottom: 0.4rem;
+}
+
+h1 img {
+  width: 2em;
+}
+
+.banner--content,
+.banner--thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+.floating-github a img {
+  width: 30px;
+  margin-right: 0.7em;
+}
+
+.column {
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+#banner p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+  color: var(--black);
+  max-width: 500px;
+}
+
+#banner .skills {
+  margin-top: 0.8rem;
+}
+
+#banner .skills img {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+}
+
+.banner--contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: var(--color-secundary);
+  border-radius: 10px;
+}
+
+.banner--contact-me:hover {
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+}
+
+.banner--contact-me strong {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner--thumbnail img {
+  padding: 10px;
+  border-radius: 50px;
+  width: 500px;
+  box-shadow: 0px 0px 30px #e3f0fc inset;
+}
+
+.banner--see-linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  width: 244px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.banner--see-linkedin strong {
+  color: var(--color-secundary);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner--see-linkedin:hover {
+  transform: translateX(5px);
+  transition: all ease 0.3s;
+}
+
+.options {
+  display: flex;
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}

@@ -1,0 +1,74 @@
+@media (max-width: 926px) {
+  #banner {
+    height: auto;
+  }
+  #banner .container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner--content,
+  .banner--thumbnail {
+    align-items: center;
+  }
+  .floating-github a img {
+    right: 20px;
+    width: 35px;
+  }
+}
+
+@media (max-width: 590px) {
+  header {
+    height: 90px;
+  }
+  header .container {
+    justify-content: center;
+  }
+  header .container .logo img {
+    width: 20%;
+    margin: 1.2rem;
+  }
+  .contact-me {
+    display: none;
+  }
+  .options {
+    align-items: center;
+    flex-direction: column;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 0.7rem;
+    line-height: 2rem;
+  }
+  h1 img {
+   width: 9%;
+  }
+  #banner p {
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .column {
+    margin-top: 0;
+  }
+  .banner--thumbnail img {
+    padding: 10px;
+    border-radius: 65px;
+    width: 100%;
+    box-shadow: 0px 0px 30px #e3f0fc inset;
+  }
+
+  #banner .skills {
+    width: 250px;
+    text-align: center;
+  }
+  #banner .skills img {
+    margin: 0.5rem;
+  }
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
