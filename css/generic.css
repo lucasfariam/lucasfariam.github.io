@@ -33,6 +33,7 @@ header .container {
 }
 
 .container {
+  margin-top: 2rem;
   width: 1130px;
   display: flex;
   justify-content: space-between;
@@ -87,7 +88,7 @@ a {
 }
 h1 {
   color: var(--color-primary);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.8rem;
 }
 h1 img {
   width: 1.5em;
@@ -98,6 +99,15 @@ h1 img {
 .banner--thumbnail {
   display: flex;
   justify-content: center;
+}
+.habilidades a p {
+  color: black;
+  font-weight: bold;
+  margin-right: 18px;
+}
+.habilidades a p:hover {
+  transform: scale(1.1);
+  transition: all ease 0.5s;
 }
 
 .floating-github a img {
@@ -120,13 +130,19 @@ h1 img {
 }
 
 #banner .skills {
-  margin-top: 0.8rem;
+  margin-top: 1.5rem;
 }
 
 #banner .skills img {
-  width: 40px;
-  height: 40px;
-  margin-left: 0.5rem;
+  width: 42px;
+  height: 42px;
+  margin: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+#banner .skills img:hover {
+  transform: scale(2);
+  transition: all ease 0.5s;
 }
 
 .banner--contact-me {
@@ -151,6 +167,7 @@ h1 img {
 }
 
 .banner--thumbnail img {
+  margin-top: 4rem;
   padding: 10px;
   border-radius: 50px;
   width: 500px;
